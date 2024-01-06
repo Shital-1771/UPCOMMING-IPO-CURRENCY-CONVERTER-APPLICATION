@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Financial App</title>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Financial App</h1>
+            <div id="user-info">
+                <!-- Display user information if logged in -->
+            </div>
+        </header>
+
+        <main>
+            <section id="ipo-calendar">
+                <h2>Upcoming IPO Calendar</h2>
+                <!-- IPO calendar content goes here -->
+            </section>
+
+            <section id="exchange-rates">
+                <h2>Latest Currency Exchange Rates</h2>
+                <!-- Exchange rates content goes here -->
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Financial App. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <div id="auth-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="login-form">
+                <h2>Login</h2>
+                <!-- Login form goes here -->
+            </div>
+            <div id="register-form">
+                <h2>Register</h2>
+                <!-- Registration form goes here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
